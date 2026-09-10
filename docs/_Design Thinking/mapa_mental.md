@@ -21,7 +21,7 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
  
 ### Mapa mental 1
  
-[![Mapa mental Entrevista]
+[![https://notebook.google.com/notebook/d7c56910-8f2d-487b-99ed-6f26887146a1/artifact/4460f340-fab4-4f47-bfe6-467c9d539dc0?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_]
  
  
 ### Mapa mental 2
@@ -33,7 +33,7 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
 <p align = "justify">
 O mapa mental é uma ficha de estudos que ajuda a dar uma visão geral do tema, e ajuda a fixar os pontos mais importantes sobre o app.
 </p>
- 
+    
 ## Referências
 > Mapa MentalXXX,  Disponível em: https://www.....
  
