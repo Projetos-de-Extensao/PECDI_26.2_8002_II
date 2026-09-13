@@ -25,29 +25,23 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, come
 <b>Caio Rocha</b> - facilitar a inscrições dos alunos.
 </p>
  
-<b>ZZZ</b> - A plataforma deve fornece...
+<b>Paulo</b> - O aplicativo deve auxiliar a fazer a alocação dos recursos necessários para a realização do teste de progresso
  
-<b>YYYY</b> - O objetivo da aplicação é....
+<b>André</b> - O objetivo da aplicação é....
  
-<b>WWWW</b> - O principal objetivo da aplicação é a...
- 
-<b>KKKK</b> - A plataforma deve gerenciar...
+
 </p>
  
 ---
  
-### 2. Como será o processo para cadastrar um novo clientetorneio?
+### 2. Como será o processo para cadastro?
  
 <p align = "justify">
 <b>Caio Rocha </b> - login com matricula
  
-<b>YYYY</b> - O cliente...
+<b>Paulo</b> - O cadastro dos professores, alunos, turmas, matérias, salas deve ser o mais simples possível.
  
-<b>WWWW</b> - Com o usuário logado, ele deverá...
-
-<b>ZZZZ</b> - O cliente...
- 
-<b>KKK</b> - O cliente...
+<b>André</b> - O cadastro deverá...
  
 ---
  
@@ -58,13 +52,10 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, come
 </p>
  
 <p align = "justify">
-<b>YYYYY</b> - O produto tem...
+<b>Paulo</b> - O produto tem...
 </p>
  
-<b>ZZZZ</b> - O produto....
- 
-<b>XXXX</b> - O produto....
-
+<b>André</b> - O produto....
  
 ---
  
@@ -73,24 +64,24 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, come
 <p align = "justify">
 <b>Caio Rocha</b> - Mobile
  
-<b>YYYY</b> - O cliente...
+<b>Paulo</b> - Fazendo login via smartphone/notebook/desktop
  
-<b>ZZZ</b> - O cliente...
+<b>André</b> - O usuário...
  
 ---
  
-### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
+### 5. Será necessário cadastrar o campus?
 <p align = "justify">
-<b>XXX</b> - O cliente....
+<b>Paulo</b> - O aplicativo poderia ser utilizado por todos os campi da universidade
 </p>
  
-### 6. Quais informações seriam interessante para o cliente?
+### 6. Quais informações seriam interessante para os alunos?
 <p align = "justify">
-   <b>XXX</b> - Informações...
+   <b>Paulo</b> - Saber o campus, a sala e o horário de realização do teste de progresso
    
-   <b>ZZZZ</b> - O cliente usuário poderá acessar informações...
+   <b>Caio</b> - O aluno poderá ...
 
-   <b>WWWWs</b> - O usuário poderá ver scouts de partidas do torneio, ver as regras dos torneios, locais e data das partidas.
+   <b>André</b> - O aluno poderá ...
    
 </p>
  
