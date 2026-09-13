@@ -22,7 +22,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa...
+<b>Caio Rocha</b> - facilitar a inscrições dos alunos.
 </p>
  
 <b>ZZZ</b> - A plataforma deve fornece...
@@ -39,7 +39,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 2. Como será o processo para cadastrar um novo clientetorneio?
  
 <p align = "justify">
-<b>XXXX</b> - O moderador deverá fazer login e...
+<b>Caio Rocha </b> - login com matricula
  
 <b>YYYY</b> - O cliente...
  
@@ -51,10 +51,10 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
  
 ---
  
-### 3. Como será a forma de adicionar produtos?
+### 3. Como será a forma de adiconar evento no produtos?
  
 <p align = "justify">
-<b>XXXX</b> - O cliente ao cadastrar...
+<b>Caio Rocha</b> - Via admin
 </p>
  
 <p align = "justify">
@@ -68,10 +68,10 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
  
 ---
  
-### 4. Outras perguntas pertinentes ao contexto
+### 4. Como será o acesso principal da maioria dos usuarios?
 
 <p align = "justify">
-<b>XXXX</b> - Com a localização...
+<b>Caio Rocha</b> - Mobile
  
 <b>YYYY</b> - O cliente...
  
