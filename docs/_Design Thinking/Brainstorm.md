@@ -74,12 +74,13 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, come
 <p align = "justify">
 <b>Paulo</b> - O aplicativo poderia ser utilizado por todos os campi da universidade
 </p>
- 
+<b>Caio</b> - Sim, e necessario para maior flexibilidade 
+
 ### 6. Quais informações seriam interessante para os alunos?
 <p align = "justify">
    <b>Paulo</b> - Saber o campus, a sala e o horário de realização do teste de progresso
    
-   <b>Caio</b> - O aluno poderá ...
+   <b>Caio</b> - campus, sala, horario, capacidade.
 
    <b>André</b> - O aluno poderá ...
    
