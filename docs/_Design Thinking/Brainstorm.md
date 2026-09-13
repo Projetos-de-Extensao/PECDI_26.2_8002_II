@@ -22,12 +22,12 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, come
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b>Caio Rocha</b> - facilitar a inscrições dos alunos.
+<b>Caio Rocha</b> - Facilitar a inscrições dos alunos.
 </p>
  
-<b>Paulo</b> - O aplicativo deve auxiliar a fazer a alocação dos recursos necessários para a realização do teste de progresso
+<b>Paulo</b> - O aplicativo deve auxiliar a fazer a alocação dos recursos necessários para a realização do teste de progresso.
  
-<b>André</b> - O objetivo da aplicação é....
+<b>André</b> - Automatizar do início ao fim: inscrição, alocação de sala e emissão de comprovante. 
  
 
 </p>
@@ -37,25 +37,25 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, come
 ### 2. Como será o processo para cadastro?
  
 <p align = "justify">
-<b>Caio Rocha </b> - login com matricula
+<b>Caio Rocha </b> - Login com matricula.
  
 <b>Paulo</b> - O cadastro dos professores, alunos, turmas, matérias, salas deve ser o mais simples possível.
  
-<b>André</b> - O cadastro deverá...
+<b>André</b> - Cadastro via matrícula com autopreenchimento (nome, turma, curso), reduzindo digitação.
  
 ---
  
 ### 3. Como será o controle de acesso das funcionalidades?
  
 <p align = "justify">
-<b>Caio Rocha</b> - Via admin
+<b>Caio Rocha</b> - Via admin.
 </p>
  
 <p align = "justify">
-<b>Paulo</b> - pela matrícula do usuário
+<b>Paulo</b> - Pela matrícula do usuário.
 </p>
  
-<b>André</b> - ....
+<b>André</b> - Somente administradores do projeto poderão editar e corrigir funcionalidades. 
  
 ---
  
@@ -66,23 +66,25 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, come
  
 <b>Paulo</b> - Fazendo login via smartphone/notebook/desktop
  
-<b>André</b> - O usuário...
+<b>André</b> - Principalmente mobile. 
  
 ---
  
 ### 5. Será necessário cadastrar o campus?
 <p align = "justify">
-<b>Paulo</b> - O aplicativo poderia ser utilizado por todos os campi da universidade
+<b>Paulo</b> - O aplicativo poderia ser utilizado por todos os campi da universidade.
 </p>
-<b>Caio</b> - Sim, e necessario para maior flexibilidade 
+<b>Caio</b> - Sim, é necessário para maior flexibilidade de localização. 
+</p>
+<b>André</b> Sim, com filtro por campus para o aluno já ver só as opções da sua unidade.
 
 ### 6. Quais informações seriam interessante para os alunos?
 <p align = "justify">
-   <b>Paulo</b> - Saber o campus, a sala e o horário de realização do teste de progresso
+   <b>Paulo</b> - Saber o campus, a sala e o horário de realização do teste de progresso.
    
-   <b>Caio</b> - campus, sala, horario, capacidade.
+   <b>Caio</b> - Campus, sala, horario, capacidade.
 
-   <b>André</b> - O aluno poderá ...
+   <b>André</b> - Campus, sala, horário e o status da própria inscrição.
    
 </p>
  
