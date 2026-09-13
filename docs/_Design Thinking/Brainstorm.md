@@ -45,17 +45,17 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, come
  
 ---
  
-### 3. Como será a forma de adiconar evento no produtos?
+### 3. Como será o controle de acesso das funcionalidades?
  
 <p align = "justify">
 <b>Caio Rocha</b> - Via admin
 </p>
  
 <p align = "justify">
-<b>Paulo</b> - O produto tem...
+<b>Paulo</b> - pela matrícula do usuário
 </p>
  
-<b>André</b> - O produto....
+<b>André</b> - ....
  
 ---
  
