@@ -20,13 +20,12 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
 ## Versão 1.0
  
 ### Mapa mental 1
- 
-[![https://notebook.google.com/notebook/d7c56910-8f2d-487b-99ed-6f26887146a1/artifact/4460f340-fab4-4f47-bfe6-467c9d539dc0?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_]
- 
+
+![Mapa Mental](MapaMental.png)
  
 ### Mapa mental 2
  
-[![Mapa mental Brainstorm]
+![ Mapa Mental Brainstorm](MapaMentalBS.png)
  
 ## Conclusão
  
@@ -34,15 +33,8 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
 O mapa mental é uma ficha de estudos que ajuda a dar uma visão geral do tema, e ajuda a fixar os pontos mais importantes sobre o app.
 </p>
     
-## Referências
-> Mapa MentalXXX,  Disponível em: https://www.....
- 
-> Ferramentas para Mapas Mentais. Disponível em: https://www....
- 
-> Plataforma para usuários colaborar no desenho... Disponível em: https://...
- 
 ## Versionamento
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| dd/mm/yy | 1.0 | Criação do documento | xxx xxxx |
-| dd/mm/yy | 2.0 | Adicionado Mapa mental 2 | xxxx xxxx |
+| 10/09/26 | 1.0 | Criação do documento | Caio Rocha|
+| 13/09/26 | 2.0 | Mapa mental brainstorm | Caio Rocha |

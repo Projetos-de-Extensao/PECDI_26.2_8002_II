@@ -37,7 +37,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, come
 ### 2. Como será o processo para cadastro?
  
 <p align = "justify">
-<b>Caio Rocha </b> - Login com matricula.
+<b>Caio Rocha </b> - cadastro via matricula para alunos e via cpf para professores.
  
 <b>Paulo</b> - O cadastro dos professores, alunos, turmas, matérias, salas deve ser o mais simples possível.
  
@@ -48,7 +48,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, come
 ### 3. Como será o controle de acesso das funcionalidades?
  
 <p align = "justify">
-<b>Caio Rocha</b> - Via admin.
+<b>Caio Rocha</b> - Via admin, professores com acesso a controles limitados a suas salas..
 </p>
  
 <p align = "justify">
