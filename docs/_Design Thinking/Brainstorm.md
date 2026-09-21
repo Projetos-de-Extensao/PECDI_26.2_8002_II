@@ -2,16 +2,17 @@
 id: brainstorm
 title: Brainstorm
 ---
- 
+# Brainstorm
+
 ## Introdução
-<p align = "justify">
+
 O brainstorm é uma técnica de elicitação de requisitos que consiste em reunir a equipe e discutir sobre diversos tópicos gerais do projeto apresentados no documento problema de negócio. No brainstorm o diálogo é incentivado e críticas são evitadas para permitir que todos colaborem com suas próprias ideias.
-</p>
+
  
 ## Metodologia
-<p align = "justify">
+
 A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, começou 2026/set/08 e terminou2026/set/13, onde o paulo foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
-</p>
+
  
 ## Brainstorm
  
@@ -21,72 +22,71 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, come
  
 ### 1. Qual o objetivo principal da aplicação?
  
-<p align = "justify">
-<b>Caio Rocha</b> - Facilitar a inscrições dos alunos.
-</p>
+
+Caio Rocha - Facilitar a inscrições dos alunos.
+
  
-<b>Paulo</b> - O aplicativo deve auxiliar a fazer a alocação dos recursos necessários para a realização do teste de progresso.
+Paulo - O aplicativo deve auxiliar a fazer a alocação dos recursos necessários para a realização do teste de progresso.
  
-<b>André</b> - Automatizar do início ao fim: inscrição, alocação de sala e emissão de comprovante. 
+André - Automatizar do início ao fim: inscrição, alocação de sala e emissão de comprovante. 
  
 
-</p>
+
  
 ---
  
 ### 2. Como será o processo para cadastro?
  
-<p align = "justify">
-<b>Caio Rocha </b> - cadastro via matricula para alunos e via cpf para professores.
+
+**Caio Rocha** - cadastro via matricula para alunos e via cpf para professores.
  
-<b>Paulo</b> - O cadastro dos professores, alunos, turmas, matérias, salas deve ser o mais simples possível.
+**Paulo** - O cadastro dos professores, alunos, turmas, matérias, salas deve ser o mais simples possível.
  
-<b>André</b> - Cadastro via matrícula com autopreenchimento (nome, turma, curso), reduzindo digitação.
+**André** - Cadastro via matrícula com autopreenchimento (nome, turma, curso), reduzindo digitação.
  
 ---
  
 ### 3. Como será o controle de acesso das funcionalidades?
  
-<p align = "justify">
-<b>Caio Rocha</b> - Via admin, professores com acesso a controles limitados a suas salas..
-</p>
+
+**Caio Rocha** - Via admin, professores com acesso a controles limitados a suas salas..
+
  
-<p align = "justify">
-<b>Paulo</b> - Pela matrícula do usuário.
-</p>
+
+**Paulo** - Pela matrícula do usuário.
  
-<b>André</b> - Somente administradores do projeto poderão editar e corrigir funcionalidades. 
+**André** - Somente administradores do projeto poderão editar e corrigir funcionalidades. 
  
 ---
  
 ### 4. Como será o acesso principal da maioria dos usuarios?
 
-<p align = "justify">
-<b>Caio Rocha</b> - Mobile
+
+**Caio Rocha** - Mobile
  
-<b>Paulo</b> - Fazendo login via smartphone/notebook/desktop
+**Paulo** - Fazendo login via smartphone/notebook/desktop
  
-<b>André</b> - Principalmente mobile. 
+**André** - Principalmente mobile. 
  
 ---
  
 ### 5. Será necessário cadastrar o campus?
-<p align = "justify">
-<b>Paulo</b> - O aplicativo poderia ser utilizado por todos os campi da universidade.
-</p>
-<b>Caio</b> - Sim, é necessário para maior flexibilidade de localização. 
-</p>
-<b>André</b> Sim, com filtro por campus para o aluno já ver só as opções da sua unidade.
+
+**Paulo** - O aplicativo poderia ser utilizado por todos os campi da universidade.
+
+**Caio** - Sim, é necessário para maior flexibilidade de localização. 
+
+**André** Sim, com filtro por campus para o aluno já ver só as opções da sua unidade.
 
 ### 6. Quais informações seriam interessante para os alunos?
-<p align = "justify">
-   <b>Paulo</b> - Saber o campus, a sala e o horário de realização do teste de progresso.
-   
-   <b>Caio</b> - Campus, sala, horario, capacidade.
 
-   <b>André</b> - Campus, sala, horário e o status da própria inscrição.
+**Paulo** - Saber o campus, a sala e o horário de realização do teste de progresso.
    
-</p>
+**Caio** - Campus, sala, horario, capacidade.
+
+**André** - Campus, sala, horário e o status da própria inscrição.
+   
+
  
 ### Requisitos elicitados
  
@@ -109,9 +109,9 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via whatsapp, come
 |BS15| O produto...|
  
 ## Conclusão
-<p align = "justify">
+
 Através da aplicação da técnica, foi possível elicitar alguns dos primeiros requisitos do projeto.
-</p>
+
 ## Referências Bibliográficas
  
 > BARBOSA, S. D. J; DA SILVA, B. S. Interação humano-computador. Elsevier, 2010.
