@@ -1,4 +1,4 @@
-# Análise de Tarefa I - 14/09/2026
+# Análise de Tarefa I
 
 A análise hierárquica de tarefas (AHT) é uma técnica utilizada para decompor e entender as atividades que um usuário realiza ao interagir com uma aplicação ou sistema. Sua principal função é detalhar, de forma estruturada, as metas, tarefas e ações envolvidas no uso do produto, permitindo identificar pontos críticos, oportunidades de melhoria e necessidades específicas das personas.
 
@@ -46,6 +46,9 @@ Compreender o fluxo de trabalho dos usuários, desde as metas gerais até as aç
 | Alocar professor em sala | Distribuir professores nas salas respeitando disponibilidade e evitando conflitos | Admin |
 | Distribuir aluno em sala | Alocar alunos em turmas priorizando campus e turno da matrícula, com ajuste manual disponível | Admin |
 | Escolher matéria | Selecionar matéria para cursar, visualizando desempenho e pontuação | Aluno |
+| Visualizar sala | visualizar sala alocada e disponiveis | Aluno |
+| Visualizar para aplicar | visualizar sala alocada para aplicar as provas | Professores |
+| Visualizar pontuação  | visualizar pontuação dos alunos que escolheu sua disciplina | Professores |
 
 ## 5. Ações Detalhadas
 
@@ -76,3 +79,21 @@ Ação 1: Aluno acessa a lista de matérias disponíveis para o seu curso.
 Ação 2: Sistema exibe a relação de acertos em provas anteriores.
 Ação 3: Sistema exibe a pontuação acumulada do aluno.
 Ação 4: Aluno escolhe o curso/matéria para aplicar a pontuação e confirma a seleção.
+
+**Tarefa: Visualizar matéria  (Aluno)**
+
+Ação 1: Aluno acessa a lista de salas disponiveis.
+Ação 2: Sistema exibe as salas.
+Ação 3: Sistema aloca automaticamente a uma sala.
+Ação 4: Aluno escolhe a sala.
+
+**Tarefa: Visualizar matéria  (Professores)**
+
+Ação 1: Professor verifica sala alocada.
+Ação 2: Sistema aloca automaticamente a uma sala
+Ação 3: Sistema exibe a sala e quantidade de alunos.
+
+**Tarefa: Visualizar pontuação  (Professores)**
+
+Ação 1: Professor verifica os alunos que selecionaram sua materia.
+Ação 2: Professor visualiza nota de alunos.
