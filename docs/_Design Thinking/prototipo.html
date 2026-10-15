@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Protótipo de Alocação de Salas</title>
+</head>
+<body>
+
+  <!-- Tela de Login -->
+  <h1>Tela de Login</h1>
+  <form action="#dashboard-admin">
+    <label>CPF/E-mail:</label><br>
+    <input type="text"><br><br>
+    <label>Senha:</label><br>
+    <input type="password"><br><br>
+    <button type="submit">Entrar</button>
+    <a href="#cadastro-admin">Registrar Admin</a>
+  </form>
+
+  <hr>
+
+  <!-- Dashboard Admin -->
+  <h1 id="dashboard-admin">Dashboard Admin</h1>
+  <ul>
+    <li><a href="#cadastro-admin">Cadastrar Admin</a></li>
+    <li><a href="#cadastro-campus">Cadastrar Campus</a></li>
+    <li><a href="#cadastro-sala">Cadastrar Sala</a></li>
+    <li><a href="#cadastro-curso">Cadastrar Curso</a></li>
+    <li><a href="#cadastro-materia">Cadastrar Matéria</a></li>
+    <li><a href="#cadastro-professor">Cadastrar Professor</a></li>
+    <li><a href="#cadastro-aluno">Cadastrar Aluno</a></li>
+    <li><a href="#cadastro-turma">Cadastrar Turma</a></li>
+    <li><a href="#alocacao">Alocação</a></li>
+  </ul>
+
+  <hr>
+
+  <!-- Cadastro de Admin -->
+  <h1 id="cadastro-admin">Cadastro de Admin</h1>
+  <form>
+    <label>CPF:</label><br>
+    <input type="text"><br><br>
+    <label>E-mail:</label><br>
+    <input type="email"><br><br>
+    <label>Senha:</label><br>
+    <input type="password"><br><br>
+    <button>Salvar</button>
+    <a href="#dashboard-admin">Voltar</a>
+  </form>
+
+  <hr>
+
+  <!-- Cadastro de Campus -->
+  <h1 id="cadastro-campus">Cadastro de Campus</h1>
+  <form>
+    <label>Cidade:</label><br>
+    <input type="text"><br><br>
+    <button>Salvar</button>
+    <a href="#dashboard-admin">Voltar</a>
+  </form>
+
+  <hr>
+
+  <!-- Cadastro de Sala -->
+  <h1 id="cadastro-sala">Cadastro de Sala</h1>
+  <form>
+    <label>Nome da Sala:</label><br>
+    <input type="text"><br><br>
+    <label>Capacidade:</label><br>
+    <input type="number"><br><br>
+    <label>Recursos:</label><br>
+    <input type="checkbox"> Projetor<br>
+    <input type="checkbox"> Computadores<br>
+    <input type="checkbox"> Quadro<br><br>
+    <button>Salvar</button>
+    <a href="#dashboard-admin">Voltar</a>
+  </form>
+
+  <hr>
+
+  <!-- Cadastro de Curso -->
+  <h1 id="cadastro-curso">Cadastro de Curso</h1>
+  <form>
+    <label>Nome do Curso:</label><br>
+    <input type="text"><br><br>
+    <label>Fluxograma/Ementa:</label><br>
+    <textarea></textarea><br><br>
+    <button>Salvar</button>
+    <a href="#dashboard-admin">Voltar</a>
+  </form>
+
+  <hr>
+
+  <!-- Cadastro de Matéria -->
+  <h1 id="cadastro-materia">Cadastro de Matéria</h1>
+  <form>
+    <label>Nome da Matéria:</label><br>
+    <input type="text"><br><br>
+    <label>Carga Horária:</label><br>
+    <input type="number"><br><br>
+    <button>Salvar</button>
+    <a href="#dashboard-admin">Voltar</a>
+  </form>
+
+  <hr>
+
+  <!-- Cadastro de Professor -->
+  <h1 id="cadastro-professor">Cadastro de Professor</h1>
+  <form>
+    <label>CPF:</label><br>
+    <input type="text"><br><br>
+    <label>E-mail Profissional:</label><br>
+    <input type="email"><br><br>
+    <label>Senha:</label><br>
+    <input type="password"><br><br>
+    <label>Disponibilidade de Horário:</label><br>
+    <textarea></textarea><br><br>
+    <button>Salvar</button>
+    <a href="#dashboard-admin">Voltar</a>
+  </form>
+
+  <hr>
+
+  <!-- Cadastro de Aluno -->
+  <h1 id="cadastro-aluno">Cadastro de Aluno</h1>
+  <form>
+    <label>Matrícula:</label><br>
+    <input type="text"><br><br>
+    <label>E-mail:</label><br>
+    <input type="email"><br><br>
+    <label>Senha:</label><br>
+    <input type="password"><br><br>
+    <label>Curso Vinculado:</label><br>
+    <input type="text"><br><br>
+    <button>Salvar</button>
+    <a href="#dashboard-admin">Voltar</a>
+  </form>
+
+  <hr>
+
+  <!-- Cadastro de Turma -->
+  <h1 id="cadastro-turma">Cadastro de Turma</h1>
+  <form>
+    <label>ID da Turma:</label><br>
+    <input type="text"><br><br>
+    <label>Matéria Vinculada:</label><br>
+    <input type="text"><br><br>
+    <button>Salvar</button>
+    <a href="#dashboard-admin">Voltar</a>
+  </form>
+
+  <hr>
+
+  <!-- Tela de Alocação -->
+  <h1 id="alocacao">Alocação de Recursos</h1>
+  <form>
+    <label>Professores:</label><br>
+    <select><option>Professor 1</option><option>Professor 2</option></select><br><br>
+    <label>Salas:</label><br>
+    <select><option>Sala A</option><option>Sala B</option></select><br><br>
+    <label>Turmas:</label><br>
+    <select><option>Turma 101</option><option>Turma 102</option></select><br><br>
+    <button>Alocar Automático</button>
+    <button>Ajuste Manual</button>
+    <br><br>
+    <a href="#dashboard-admin">Voltar</a>
+  </form>
+  <hr>
+<!-- Tela do Aluno -->
+  <h1 id="tela-aluno">Tela do Aluno</h1>
+  <ul>
+    <li><a href="#escolher-materia">Escolher Matéria</a></li>
+    <li><a href="#visualizar-sala">Visualizar Sala</a></li>
+    <li><a href="#desempenho">Desempenho/Pontuação</a></li>
+  </ul>
+  <a href="#login">Sair</a>
+
+  <hr>
+
+  <!-- Tela do Professor -->
+  <h1 id="tela-professor">Tela do Professor</h1>
+  <ul>
+    <li><a href="#visualizar-provas">Visualizar Sala para Provas</a></li>
+    <li><a href="#pontuacao-alunos">Visualizar Pontuação dos Alunos</a></li>
+  </ul>
+  <a href="#login">Sair</a>
+
+</body>
+</html>
+
+
