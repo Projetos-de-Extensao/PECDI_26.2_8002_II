@@ -34,7 +34,93 @@ A criação e o uso de histórias de usuário geralmente seguem esta metodologia
 6. **Implementação Iterativa**: Durante o desenvolvimento ágil (por exemplo, em Sprints no Scrum), as histórias priorizadas são implementadas, testadas e revisadas com feedback contínuo.
 
 ### História de Usuário
+# 🏫 Histórias do Usuário – Projeto de Alocação de Salas
 
-* US001
-* US002
-* US003...
+## 👨‍💼 Administração
+
+- **Como** administrador  
+- **Quero** cadastrar novos administradores com CPF, e-mail e senha  
+- **Para** garantir que apenas pessoas autorizadas gerenciem o sistema.  
+
+---
+
+- **Como** administrador  
+- **Quero** registrar unidades/campi por cidade  
+- **Para** organizar a alocação de salas e turmas por localização.  
+
+---
+
+- **Como** administrador  
+- **Quero** cadastrar salas com recursos disponíveis e capacidade  
+- **Para** que o sistema aloque turmas em espaços adequados.  
+
+---
+
+- **Como** administrador  
+- **Quero** cadastrar cursos com nome e fluxograma/ementa  
+- **Para** estruturar a oferta acadêmica da universidade.  
+
+---
+
+- **Como** administrador  
+- **Quero** cadastrar matérias com nome e carga horária  
+- **Para** que sejam vinculadas corretamente aos cursos e turmas.  
+
+---
+
+- **Como** administrador  
+- **Quero** registrar ou importar professores com CPF, e-mail profissional, senha e disponibilidade de horário  
+- **Para** facilitar a alocação automática e evitar conflitos de agenda.  
+
+---
+
+- **Como** administrador  
+- **Quero** registrar ou importar alunos com matrícula, e-mail, senha e vínculo ao curso  
+- **Para** que possam ser alocados em turmas e salas corretamente.  
+
+---
+
+- **Como** administrador  
+- **Quero** registrar ou importar turmas vinculando ID da turma e matéria  
+- **Para** organizar a oferta de disciplinas no semestre.  
+
+---
+
+- **Como** administrador  
+- **Quero** alocar professores em salas respeitando disponibilidade e evitando conflitos  
+- **Para** garantir que cada disciplina tenha espaço e horário adequado.  
+
+---
+
+- **Como** administrador  
+- **Quero** distribuir alunos em turmas priorizando campus e turno da matrícula, com possibilidade de ajuste manual  
+- **Para** otimizar a ocupação das salas e atender necessidades específicas.  
+
+---
+
+## 👩‍🎓 Alunos
+
+- **Como** aluno  
+- **Quero** escolher a matéria que desejo cursar, visualizando meu desempenho e pontuação  
+- **Para** planejar melhor minha trajetória acadêmica.  
+
+---
+
+- **Como** aluno  
+- **Quero** visualizar a sala alocada e outras disponíveis  
+- **Para** saber onde minhas aulas acontecerão.  
+
+---
+
+## 👨‍🏫 Professores
+
+- **Como** professor  
+- **Quero** visualizar a sala alocada para aplicar provas  
+- **Para** organizar a aplicação de avaliações sem conflitos.  
+
+---
+
+- **Como** professor  
+- **Quero** visualizar a pontuação dos alunos que escolheram minha disciplina  
+- **Para** acompanhar o desempenho e evolução da turma.  
+
