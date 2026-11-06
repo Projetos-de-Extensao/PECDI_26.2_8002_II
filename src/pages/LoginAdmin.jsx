@@ -18,7 +18,7 @@ export default function Login() {
 
         {" "}
 
-        <Link to="/cadastro-admin">
+        <Link className="action-link" to="/cadastro-admin">
           Registrar Admin
         </Link>
       </form>

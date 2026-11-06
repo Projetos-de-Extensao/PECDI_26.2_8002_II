@@ -12,7 +12,7 @@ export default function CadastroTurma() {
 
       {" "}
 
-      <Link to="/dashboard">Voltar</Link>
+      <Link className="action-link" to="/dashboard">Voltar</Link>
     </div>
   );
 }

@@ -18,7 +18,7 @@ export default function CadastroProfessor() {
 
       {" "}
 
-      <Link to="/dashboard">Voltar</Link>
+      <Link className="action-link" to="/dashboard">Voltar</Link>
     </div>
   );
 }

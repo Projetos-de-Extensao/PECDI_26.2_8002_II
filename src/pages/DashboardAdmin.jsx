@@ -5,7 +5,7 @@ export default function DashboardAdmin() {
     <div>
       <h1>Dashboard Admin</h1>
 
-      <ul>
+      <ul className="navigation-list">
         <li><Link to="/cadastro-admin">Cadastrar Admin</Link></li>
         <li><Link to="/cadastro-campus">Cadastrar Campus</Link></li>
         <li><Link to="/cadastro-sala">Cadastrar Sala</Link></li>

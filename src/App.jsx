@@ -1,6 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Login from "./pages/Login";
+
+
+import DefinirUsuario from "./pages/DefinirUsuario.jsx";
+import LoginAdmin from "./pages/LoginAdmin.jsx";
+import LoginProfessor from "./pages/LoginProfessor.jsx";
+import LoginAluno from "./pages/LoginAluno.jsx";
 import DashboardAdmin from "./pages/DashboardAdmin.jsx";
 import CadastroAdmin from "./pages/CadastroAdmin";
 import CadastroCampus from "./pages/CadastroCampus";
@@ -13,12 +18,19 @@ import CadastroTurma from "./pages/CadastroTurma";
 import Alocacao from "./pages/Alocacao";
 import TelaAluno from "./pages/TelaAluno";
 import TelaProfessor from "./pages/TelaProfessor";
+import SalaAlocada from "./pages/SalaAlocada.jsx";
+import ProfAlunoNotas from "./pages/ProfAlunoNotas.jsx";
+import SalaDisponiveis from "./pages/SalasDisponiveis.jsx";
+import AlunoNota from "./pages/AlunoNota.jsx";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<DefinirUsuario />} />
+        <Route path="/login-admin" element={<LoginAdmin />} />
+        <Route path="/login-aluno" element={<LoginAluno />} />
+        <Route path="/login-professor" element={<LoginProfessor />} />
         <Route path="/dashboard" element={<DashboardAdmin />} />
         <Route path="/cadastro-admin" element={<CadastroAdmin />} />
         <Route path="/cadastro-campus" element={<CadastroCampus />} />
@@ -31,6 +43,13 @@ export default function App() {
         <Route path="/alocacao" element={<Alocacao />} />
         <Route path="/aluno" element={<TelaAluno />} />
         <Route path="/professor" element={<TelaProfessor />} />
+        <Route path="/sala-alocada" element={<SalaAlocada />} />
+        <Route path="/aluno-notas" element={<ProfAlunoNotas />} />
+        <Route path="/sala-disponiveis" element={<SalaDisponiveis />} />
+        <Route path="/aluno-nota" element={<AlunoNota />} />
+
+      
+      
       </Routes>
     </BrowserRouter>
   );
