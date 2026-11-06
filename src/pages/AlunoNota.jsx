@@ -7,6 +7,10 @@ export default function AlunoNota() {
 
       <ul>
         <li>Nota: </li>
+
+        <Link to="/aluno">
+          <button type="button">Voltar</button>
+        </Link>
       </ul>
     </div>
   );

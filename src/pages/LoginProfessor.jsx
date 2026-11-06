@@ -12,7 +12,7 @@ export default function LoginProfessor() {
         <label>Senha:</label><br />
         <input type="password" /><br /><br />
 
-        <Link to="/aluno">
+        <Link to="/professor">
           <button type="button">Entrar</button>
         </Link>
 

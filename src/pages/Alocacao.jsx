@@ -5,17 +5,12 @@ export default function Alocacao() {
     <div>
       <h1>Alocação</h1>
 
-      <button>Alocação Automática</button>
+      <div className="allocation-actions">
+        <button type="button">Alocação Automática</button>
+        <button type="button">Ajuste Manual</button>
+      </div>
 
-      {" "}
-
-      <button>Ajuste Manual</button>
-
-      <br /><br />
-
-      <Link to="/dashboard">
-        Voltar
-      </Link>
+      <Link className="action-link" to="/dashboard">Voltar</Link>
     </div>
   );
 }

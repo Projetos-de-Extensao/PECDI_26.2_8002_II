@@ -22,6 +22,7 @@ import SalaAlocada from "./pages/SalaAlocada.jsx";
 import ProfAlunoNotas from "./pages/ProfAlunoNotas.jsx";
 import SalaDisponiveis from "./pages/SalasDisponiveis.jsx";
 import AlunoNota from "./pages/AlunoNota.jsx";
+import AlunoAtribuir from "./pages/AlunoAtribuir.jsx";
 
 export default function App() {
   return (
@@ -47,6 +48,7 @@ export default function App() {
         <Route path="/aluno-notas" element={<ProfAlunoNotas />} />
         <Route path="/sala-disponiveis" element={<SalaDisponiveis />} />
         <Route path="/aluno-nota" element={<AlunoNota />} />
+        <Route path="/aluno-atribuir" element={<AlunoAtribuir />} />
 
       
       
