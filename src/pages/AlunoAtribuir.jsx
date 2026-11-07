@@ -17,7 +17,7 @@ export default function AlunoAtribuir() {
           <button type="submit">Atribuir nota</button>
         </form>
 
-      <Link className="action-link" to="/dashboard">Voltar</Link>
+      <Link className="action-link" to="/aluno">Voltar</Link>
     </div>
   );
 }
