@@ -1,0 +1,84 @@
+{
+  "alunos": [
+    {
+      "id": "aluno-1",
+      "nome": "Ana Souza",
+      "matricula": "2026001",
+      "email": "ana@teste.com"
+    },
+    {
+      "id": "aluno-2",
+      "nome": "Bruno Lima",
+      "matricula": "2026002",
+      "email": "bruno@teste.com"
+    }
+  ],
+  "materias": [
+    {
+      "id": "materia-1",
+      "nome": "Matéria 1"
+    },
+    {
+      "id": "materia-2",
+      "nome": "Matéria 2"
+    }
+  ],
+  "salas": [
+    {
+      "id": "sala-1",
+      "nome": "Sala 101",
+      "campus": "Centro",
+      "capacidade": 40,
+      "vagasDisponiveis": 12,
+      "disponivel": true
+    },
+    {
+      "id": "sala-2",
+      "nome": "Sala 202",
+      "campus": "Centro",
+      "capacidade": 30,
+      "vagasDisponiveis": 7,
+      "disponivel": true
+    },
+    {
+      "id": "sala-3",
+      "nome": "Sala 303",
+      "campus": "Zona Sul",
+      "capacidade": 35,
+      "vagasDisponiveis": 0,
+      "disponivel": false
+    }
+  ],
+  "notas": [
+    {
+      "id": "aluno-1--materia-1",
+      "alunoId": "aluno-1",
+      "materiaId": "materia-1",
+      "valor": 8.5
+    },
+    {
+      "alunoId": "aluno-2",
+      "materiaId": "materia-2",
+      "valor": 9,
+      "id": "o3M5EtEXM7g"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json",
+  "professores": [
+    {
+      "id": "professor-1",
+      "nome": "Professor de teste",
+      "email": "professor@teste.com"
+    }
+  ],
+  "alocacoes": [
+    {
+      "id": "alocacao-1",
+      "professorId": "professor-1",
+      "salaId": "sala-1",
+      "data": "2026-12-01",
+      "horaInicio": "09:00",
+      "horaFim": "11:00"
+    }
+  ]
+}
