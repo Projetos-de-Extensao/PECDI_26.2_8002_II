@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 
 
@@ -23,6 +23,13 @@ import ProfAlunoNotas from "./pages/ProfAlunoNotas.jsx";
 import SalaDisponiveis from "./pages/SalasDisponiveis.jsx";
 import AlunoNota from "./pages/AlunoNota.jsx";
 import AlunoAtribuir from "./pages/AlunoAtribuir.jsx";
+import { lerSessao } from "./api/sessao";
+
+function ExigirPapel({ papel, children }) {
+  const sessao = lerSessao();
+  if (sessao?.papel !== papel || !sessao.id) return <Navigate to={papel === "aluno" ? "/login-aluno" : "/login-professor"} replace />;
+  return children;
+}
 
 export default function App() {
   return (
@@ -42,13 +49,14 @@ export default function App() {
         <Route path="/cadastro-aluno" element={<CadastroAluno />} />
         <Route path="/cadastro-turma" element={<CadastroTurma />} />
         <Route path="/alocacao" element={<Alocacao />} />
-        <Route path="/aluno" element={<TelaAluno />} />
-        <Route path="/professor" element={<TelaProfessor />} />
-        <Route path="/sala-alocada" element={<SalaAlocada />} />
-        <Route path="/aluno-notas" element={<ProfAlunoNotas />} />
-        <Route path="/sala-disponiveis" element={<SalaDisponiveis />} />
-        <Route path="/aluno-nota" element={<AlunoNota />} />
-        <Route path="/aluno-atribuir" element={<AlunoAtribuir />} />
+        <Route path="/aluno" element={<ExigirPapel papel="aluno"><TelaAluno /></ExigirPapel>} />
+        <Route path="/professor" element={<ExigirPapel papel="professor"><TelaProfessor /></ExigirPapel>} />
+        <Route path="/sala-alocada" element={<ExigirPapel papel="professor"><SalaAlocada /></ExigirPapel>} />
+        <Route path="/aluno-notas" element={<ExigirPapel papel="professor"><ProfAlunoNotas /></ExigirPapel>} />
+        <Route path="/sala-disponiveis" element={<ExigirPapel papel="aluno"><SalaDisponiveis /></ExigirPapel>} />
+        <Route path="/aluno-nota" element={<ExigirPapel papel="aluno"><AlunoNota /></ExigirPapel>} />
+        <Route path="/lancar-nota" element={<ExigirPapel papel="professor"><AlunoAtribuir /></ExigirPapel>} />
+        <Route path="/aluno-atribuir" element={<ExigirPapel papel="professor"><Navigate to="/lancar-nota" replace /></ExigirPapel>} />
 
       
       
