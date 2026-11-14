@@ -11,6 +11,10 @@ export default function CadastroProfessor() {
       <input type="email" placeholder="E-mail" />
       <br /><br />
 
+      <input type="text" placeholder="bairro/campus" />
+      <br /><br />
+
+
       <textarea placeholder="Disponibilidade"></textarea>
       <br /><br />
 

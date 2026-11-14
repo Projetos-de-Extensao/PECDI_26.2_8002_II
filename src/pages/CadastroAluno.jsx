@@ -11,6 +11,8 @@ export default function CadastroAluno() {
       <input type="email" placeholder="E-mail" />
       <br /><br />
 
+       <input type="password" placeholder="Senha" />
+      <br /><br />
       <button>Salvar</button>
 
       {" "}

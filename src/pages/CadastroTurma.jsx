@@ -8,6 +8,17 @@ export default function CadastroTurma() {
       <input type="text" placeholder="ID da Turma" />
       <br /><br />
 
+       <input type="text" placeholder="Professor" />
+      <br /><br />
+
+       <input type="text" placeholder="Aluno" />
+      <br /><br />
+
+       <input type="text" placeholder="Materia" />
+      <br /><br />
+
+    
+
       <button>Salvar</button>
 
       {" "}

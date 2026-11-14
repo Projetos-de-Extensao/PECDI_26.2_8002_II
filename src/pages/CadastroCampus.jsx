@@ -5,7 +5,7 @@ export default function CadastroCampus() {
     <div>
       <h1>Cadastro de Campus</h1>
 
-      <input type="text" placeholder="Cidade" />
+      <input type="text" placeholder="Bairro/Nome" />
       <br /><br />
 
       <button>Salvar</button>
