@@ -10,6 +10,9 @@ export default function CadastroSala() {
 
       <input type="number" placeholder="Capacidade" />
       <br /><br />
+
+       <input type="text" placeholder="Campus" />
+      <br /><br />
     
 
 
